@@ -142,7 +142,7 @@ button:hover {
 }
 
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     body{
         font-size: 0.5em;
         width: 90%;
@@ -150,7 +150,7 @@ button:hover {
     
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     body {
         width: 70%;
         font-size: 0.5em;
