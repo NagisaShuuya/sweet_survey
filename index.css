@@ -1,0 +1,179 @@
+body {
+    background-image: url("https://i.imgur.com/CuDY7e1.png");
+    /* background-image: url("/an-overhead-view-of-flour-eggs-butter-and-equipments-on-pink-background.png"); */
+    background: cover;
+    /* font-family: 'Irish Grover', cursive;
+    font-family: 'Varela Round', sans-serif; */
+}
+
+.container {
+    background-color: rgba(255, 192, 203, 0.6);
+    width: 70%;
+    margin: auto;
+    border-radius: 1.2vw;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+#title {
+    font-family: 'Irish Grover', cursive, monospace;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(82, 13, 82);
+}
+
+#description {
+    border-bottom: solid rgba(113,59,235,0.5) 5px;
+    padding-bottom: 1em;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(82, 13, 82);
+    font-size: 1.1em;
+}
+
+#survey-form {
+    text-align: left;
+    margin: auto;
+    width: 55vw;
+    padding: 2em;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.4em;
+    color: rgb(82, 13, 82);
+    font-weight: bold;
+    padding: 1em;
+}
+#survey-form .data label {
+    display: block; 
+    padding: 5px;
+}
+#survey-form .data input {
+    width: 70%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8em;
+    color: rgb(82, 13, 82);
+    padding: 0.3em;
+    border-radius: 10px;
+}
+#survey-form .data {
+    padding-bottom: 1em;
+}
+#survey-form select {
+    width: 70%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8em;
+    color: rgb(82, 13, 82);
+    border-radius: 10px;
+    padding: 0.2em;
+}
+#survey-form p {
+    font-family: 'Irish Grover', cursive, monospace;
+    font-size: 1.2em;
+}
+#survey-form .type {
+    padding-bottom: 1em;
+}
+#survey-form .type input{
+    padding-bottom: 1em;
+    width: 70%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8em;
+    color: rgb(82, 13, 82);
+    padding: 0.3em;
+    border-radius: 10px;
+}
+#survey-form #another-option {
+    padding-bottom: 1em;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8em;
+    color: rgb(82, 13, 82);
+    width: 70%;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    padding: 0.3em;
+    width: 70%;
+}
+#survey-form .filling {
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+}
+#survey-form #topping {
+    margin-bottom: 2.5em;
+}
+#survey-form #suggestions textarea {
+    padding-bottom: 1em;
+    width: 70%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8em;
+    color: rgb(82, 13, 82);
+    padding: 0.3em;
+    resize: none;
+    border-radius: 10px;
+}
+
+.send button {
+    font-family: 'Irish Grover', cursive;
+    color: rgb(82, 13, 82);
+    font-size: 1em;
+    padding: 0.3em;
+    background-color:rgb(255, 192, 203);
+    border-radius: 12px;
+    border-top:solid rgb(82, 13, 82);
+    border-left: solid rgb(82, 13, 82);
+    border-bottom: solid rgb(177, 28, 90);
+    border-right: solid rgb(177, 28, 90);
+    margin-top: 1.1em;
+}
+
+footer {
+    margin-top: 1em;
+    text-align: end;
+    font-size: 0.7em;
+}
+
+#survey-form input:hover, select:hover, textarea:hover {
+    background-color: rgba(197, 146, 255, 0.5);
+}
+
+button:hover {
+    background-color: rgba(197, 146, 255, 0.5);
+    cursor: pointer;
+}
+
+
+@media (min-width: 375px) {
+    body{
+        font-size: 0.5em;
+        width: 90%;
+    }
+    
+}
+
+@media (min-width: 800px) {
+    body {
+        width: 70%;
+        font-size: 0.5em;
+        padding: 0.7em;
+    }
+    footer {
+        text-align: center;
+    }
+    #survey-form #another-option {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1300px) {
+    body {
+        width: 100%;
+        font-size: 0.5em;
+        padding: 0.7em;
+    }
+    footer {
+        text-align: center;
+    }
+    #survey-form #another-option {
+        width: 100%;
+    }
+}

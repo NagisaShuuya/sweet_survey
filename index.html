@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Varela+Round&display=swap" rel="stylesheet"> 
+    <!-- css page -->
+    <link rel="stylesheet" href="index.css">
+    <main>
+    <title>A Sweet Instant - "Orders here":</title>
+    </main>
+</head>
+<body>
+<div class="container">
+    <!-- title -->
+    <div>
+        <h1 id="title">"A Sweet Instant" Order your Dessert Here:</h1>
+    </div>
+    <!-- subtitle -->
+    <div>
+        <p id="description"><em>Choose your moment and make it happen</em></p>
+    </div>
+    <!-- form -->
+    <div class="survey">
+        <form action="" id="survey-form">
+            <!-- data -->
+            <div class="data">
+                <label for="name" id="name-label">Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name (⌒‿⌒)" required>
+                    <br><br>
+                
+                <label for="email" id="email-label">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email (⁀ᗢ⁀)" required>
+                    <br><br>
+                
+                <label for="number" id="number-label">Amount of Desserts:  </label>
+                    <input type="number" id="number" name="amount" min="1" max="99" required>
+               
+            </div>
+
+            <!-- type -->
+            <div class="type">
+                <p>Type of Dessert for that <em> special </em> someone ♡( ◡‿◡ ):</p>
+                <select name="type" id="dropdown" required>
+                    <option disable="" selected="" value="">Select your type (^_−)☆</option>
+                    <option value="cake">Cake</option>
+                    <option value="cupcake">Cupcake</option>
+                    <option value="bagel">Bagel</option>
+                    <option value="jelly">Jelly</option>
+                </select>
+                <br><br>
+                <label for="another" id="another-label">*Another Option: </label>
+                    <input type="text" id="another-option" name="anotherOption" placeholder="*Write it here">
+                
+            </div>
+
+            <!-- flavor -->
+            <div class="flavor">
+                <p>What flavor would you like? (⌒ω⌒):</p>
+                <label for="vanilla" id="vanilla-label">
+                    <input type="radio" name="flavor" value="vanilla">
+                    Vanilla
+                </label><br>
+                <label for="chocolate" id="chocolate-flavor">
+                    <input type="radio" name="flavor" value="chocolate">
+                    Chocolate
+                </label><br>
+                <label for="strawberry" id="strawberry-flavor">
+                    <input type="radio" name="flavor" value="strawberry">
+                    Strawberry
+                </label>
+                <br><br>
+                <label for="another" id="another-flavor">*Another Option: </label>
+                    <input type="text" id="another-option" name="anotherOption" placeholder="*Write it here">             
+            </div>
+
+            <!-- filling type -->
+            <div class="filling">
+                <p>What will you put in your dessert? (⌒▽⌒)♡</p>
+                <select name="filling" id="dropdown" required>
+                    <option disable="" selected="" value="">Select your type (^_−)☆ </option>
+                    <option value="berries">Berries</option>
+                    <option value="chocolates">Chocolates</option>
+                    <option value="jam">Jam</option>
+                    <option value="chantilly">Chantilly</option>
+                </select>
+            </div>
+
+            <!-- dessert topping -->
+            <div id="topping">
+                <p>How do you want it to look? (°◡°♡)</p>
+                <label for="topping" id="choose"> </label>
+                    <input type="checkbox" name="topping" value="fondant">
+                    Fondant
+                    <br>
+                <label for="topping" id="choose"> </label>
+                    <input type="checkbox" name="topping" value="Chantilly">
+                    Chantilly
+                    <br>
+                <label for="topping" id="choose"> </label>
+                    <input type="checkbox" name="topping" value="mirror-glaze">
+                    Mirror Glaze
+                    <br>
+                <label for="topping" id="choose"> </label>
+                    <input type="checkbox" name="topping" value="marzipan">
+                    Marzipan
+            </div>
+
+            <!-- suggestions -->
+            <div id="suggestions">
+                <p>*Any details or Special requests? ( ◡‿◡ *)</p>
+                <textarea name="details" id="details" cols="50" rows="10" placeholder="Let your creativity run wild..."></textarea>
+            </div>
+
+            <!-- button submit -->
+            <div class="send">
+                <button type="submit" id="submit">
+                    Send the order
+                </button>
+            </div>
+
+            <!-- warnings -->
+            <div>
+                <footer>
+                    *Some special requests will be subject to availability 
+                    <br>
+                    Sorry for the inconvenience.
+                    ┐(シ)┌ 
+                </footer>
+            </div>
+
+        </form> 
+    </div>
+
+</div>
+    
+</body>
+</html>
